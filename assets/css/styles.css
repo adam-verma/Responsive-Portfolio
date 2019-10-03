@@ -63,7 +63,7 @@ body {
     border-bottom: 2px solid #cccccc;
   }
   
-  #logo {
+  .logo {
     float: left;
     width: 250px;
     height: 90px;
@@ -220,6 +220,20 @@ body {
     body {
     }
     .container {
+      flex: 33%;
+      max-width: 33%;
+    }
+    .logo {
+      width:100%;
+      text-align: center;
+      display: block;
+      margin:10px 0px;
+    }
+    .navbut {
+      display: block; 
+      text-align: center;
+      width: 100%; 
+      margin: 10px 0px;
     }
     #masthead {
         position: static; 
@@ -230,16 +244,20 @@ body {
     body {
     }
     .container {
+      flex: 68%;
+      max-width: 68%;
     }
     #masthead {
-        position: static; 
-    }
+      position: static; 
+  }
   }
 
   @media screen and (max-width: 980px) {
     body {
     }
     .container {
+      flex: 100%;
+      max-width: 100%;
     }
     #masthead {
         position: static; 
