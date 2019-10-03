@@ -223,7 +223,7 @@ body {
       flex: 33%;
       max-width: 33%;
     }
-    .logo {
+    #logo {
       width:100%;
       text-align: center;
       display: block;
